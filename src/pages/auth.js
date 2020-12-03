@@ -16,7 +16,7 @@ export default class Auth extends Component {
     let href = oauth.getYachAppDownloadPageUrl({
       type,
     })
-    href = href.replace('yach', 'yach-test')
+    // href = href.replace('yach', 'yach-test')
     this.setState(
       {
         downloadPageUrl: href,
